@@ -70,13 +70,13 @@ namespace UnitTestHippoMocks
 
         TEST_METHOD(TestMethod4)
         {
-            // グローバルファンクションを上書きする前は、実装した通りのふるまい
+            // グローバル関数を上書きする前は、実装した通りのふるまい
             Assert::AreEqual(1, SampleMethodGlobal(1));
 
             // とりあえずMockRepositoryを生成
             MockRepository mocks;
 
-            // グローバルファンクションも上書きできる
+            // グローバル関数も上書きできる
             mocks.ExpectCallFunc(SampleMethodGlobal).Return(10);
 
             // 上書きしたメソッド
