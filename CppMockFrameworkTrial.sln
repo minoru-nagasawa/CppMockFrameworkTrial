@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UnitTestFakeIt", "UnitTestFakeIt\UnitTestFakeIt.vcxproj", "{AEC1AF03-0819-464D-A062-D701039F54DA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SampleDLL", "SampleDLL\SampleDLL.vcxproj", "{1F621EA3-B7EF-40F0-B841-0A829722048D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UnitTestHippoMocks", "UnitTestHippoMocks\UnitTestHippoMocks.vcxproj", "{C08394BB-D120-4176-9104-1C6A1FC257F3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UnitTestGoogleMock", "UnitTestGoogleMock\UnitTestGoogleMock.vcxproj", "{03043AF4-38A0-41E7-9AC8-9586860A691C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AEC1AF03-0819-464D-A062-D701039F54DA}.Debug|x86.ActiveCfg = Debug|Win32
+		{AEC1AF03-0819-464D-A062-D701039F54DA}.Debug|x86.Build.0 = Debug|Win32
+		{AEC1AF03-0819-464D-A062-D701039F54DA}.Release|x86.ActiveCfg = Release|Win32
+		{AEC1AF03-0819-464D-A062-D701039F54DA}.Release|x86.Build.0 = Release|Win32
+		{1F621EA3-B7EF-40F0-B841-0A829722048D}.Debug|x86.ActiveCfg = Debug|Win32
+		{1F621EA3-B7EF-40F0-B841-0A829722048D}.Debug|x86.Build.0 = Debug|Win32
+		{1F621EA3-B7EF-40F0-B841-0A829722048D}.Release|x86.ActiveCfg = Release|Win32
+		{1F621EA3-B7EF-40F0-B841-0A829722048D}.Release|x86.Build.0 = Release|Win32
+		{C08394BB-D120-4176-9104-1C6A1FC257F3}.Debug|x86.ActiveCfg = Debug|Win32
+		{C08394BB-D120-4176-9104-1C6A1FC257F3}.Debug|x86.Build.0 = Debug|Win32
+		{C08394BB-D120-4176-9104-1C6A1FC257F3}.Release|x86.ActiveCfg = Release|Win32
+		{C08394BB-D120-4176-9104-1C6A1FC257F3}.Release|x86.Build.0 = Release|Win32
+		{03043AF4-38A0-41E7-9AC8-9586860A691C}.Debug|x86.ActiveCfg = Debug|Win32
+		{03043AF4-38A0-41E7-9AC8-9586860A691C}.Debug|x86.Build.0 = Debug|Win32
+		{03043AF4-38A0-41E7-9AC8-9586860A691C}.Release|x86.ActiveCfg = Release|Win32
+		{03043AF4-38A0-41E7-9AC8-9586860A691C}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1E3A128E-8241-4CA3-BF51-C901F3075958}
+	EndGlobalSection
+EndGlobal
